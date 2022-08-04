@@ -1,15 +1,18 @@
-The Collection in Java is a framework that provides an architecture to store and manipulate the group of objects.
-Java Collections can achieve all the operations that you perform on a data such as searching, sorting, insertion,
-manipulation, and deletion. Java Collection means a single unit of objects. Java Collection framework provides many
-interfaces (Set, List, Queue, Deque) and classes (ArrayList, Vector, LinkedList, PriorityQueue, HashSet, LinkedHashSet,
-TreeSet). The Collection interface is the interface which is implemented by all the classes in the collection framework.
-It declares the methods that every collection will have. In other words, we can say that the Collection interface
-builds the foundation on which the collection framework depends. List interface is the child interface of Collection
-interface. It inhibits a list type data structure in which we can store the ordered collection of objects. It can have
-duplicate values.
-To instantiate the List interface, we must use :
-List <data-type> list1= new ArrayList();
-List <data-type> list1 = new LinkedList();
-List <data-type> list3 = new Vector();
-List <data-type> list4 = new Stack();
-There are various methods in List interface that can be used to insert, delete, and access the elements from the list.
+Behavior-driven testing
+The automation technologies considered above focus as much as possible on technical aspects of application behavior and
+have one common drawback: they are difficult to test high-level user scenarios (which is exactly what customers and end
+users are interested in). This gap is addressed by behavior-driven testing, which focuses not on specific technical details
+but rather on overall application actions in solving typical user tasks.
+This approach not only simplifies the execution of a whole class of checks, but also facilitates interaction between
+developers, testers, business analysts and the customer, since the approach is based on a very simple formula “given-when-then”:
+• “Given” describes the initial situation in which the user finds himself in the context of working with the application.
+• “When” describes a set of user actions in a given situation.
+• “Then” describes the expected behavior of the application.
+Let’s take our “File Converter” as an example:
+• Given, the application is running.
+• When I place a file of a supported size and format in the input directory.
+• Then the file is moved to the output directory and the text inside the file is converted to UTF-8.
+This principle of test description allows even project participants without deep technical background to participate
+in test case development and analysis, and for automation specialists it is easier to create automated test case code,
+because this form is standard, unified and yet provides enough information to write high-level test cases. There are
+special technical solutions (e.g., Behat, JBehave, NBehave, Cucumber) that simplify implementation of behavior-driven testing.

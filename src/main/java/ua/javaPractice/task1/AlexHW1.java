@@ -1,3 +1,5 @@
+package ua.javaPractice.task1;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -7,7 +9,7 @@ import java.util.stream.Stream;
 
 public class AlexHW1 {
     public static void main(String[] args) {
-        var path = "src/main/Text.txt";
+        var path = "src/main/Text2.txt";
 
         try {
             var filePath = Path.of(path);

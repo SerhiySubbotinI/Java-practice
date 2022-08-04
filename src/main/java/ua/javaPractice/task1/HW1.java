@@ -1,3 +1,5 @@
+package ua.javaPractice.task1;
+
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -5,7 +7,7 @@ import java.util.TreeSet;
 
 public class HW1 {
     public static void main(String[] args) throws IOException {
-        String textFromFile = Files.readString(Paths.get("src/main/Text.txt"));
+        String textFromFile = Files.readString(Paths.get("src/main/Text2.txt"));
         long sizeInBytes = textFromFile.getBytes().length;
         int count = 0;
         TreeSet<String> words = new TreeSet<>();
