@@ -1,4 +1,4 @@
-package ua.javaPractice.task1;
+package ua.javaPractice.task0;
 
 import java.io.IOException;
 import java.nio.file.Files;
