@@ -1,12 +1,12 @@
 Behavior-driven testing
 The automation technologies considered above focus as much as possible on technical aspects of application behavior and
-have one common drawback: they are difficult to test high-level user scenarios (which is exactly what customers and end
+have one common drawback: they are difficult to test high-level custommer scenarios (which is exactly what customers and end
 users are interested in). This gap is addressed by behavior-driven testing, which focuses not on specific technical details
-but rather on overall application actions in solving typical user tasks.
+but rather on overall application actions in solving typical custommer tasks.
 This approach not only simplifies the execution of a whole class of checks, but also facilitates interaction between
 developers, testers, business analysts and the customer, since the approach is based on a very simple formula “given-when-then”:
-• “Given” describes the initial situation in which the user finds himself in the context of working with the application.
-• “When” describes a set of user actions in a given situation.
+• “Given” describes the initial situation in which the custommer finds himself in the context of working with the application.
+• “When” describes a set of custommer actions in a given situation.
 • “Then” describes the expected behavior of the application.
 Let’s take our “File Converter” as an example:
 • Given, the application is running.
